@@ -1,0 +1,41 @@
+/* .navBar_header{
+} */
+
+.left_navbar{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+}
+
+.left_navbar > div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+}
+
+.right_navbar{
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+
+
+.store_nav{
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.store_nav-center{
+  display: flex;
+  gap: 35px;
+
+}
+.store_nav-right{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+

@@ -1,0 +1,33 @@
+.top_navbar_alignment{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.second_nav_alignment{
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 190px;
+    padding-right: 190px;
+    background-color: rgb(15, 15, 15);
+}
+
+.store_nav-main{
+    position: sticky;
+    z-index: 20;
+}
+
+.content_page-alignment{
+    padding-top: 30px;
+    padding-left: 190px;
+    padding-right: 190px;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+}

@@ -1,0 +1,146 @@
+.dropdown {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  min-width: 260px;
+
+  background: #444444bd;
+  border-radius: 16px;
+  padding: 8px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  transition: 0.15s ease;
+  
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  z-index: 22;
+}
+
+.arrow {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #aaa;
+  border-bottom: 2px solid #aaa;
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.distribute_items,
+.epic_items{
+  color: white;
+  width: 100%;
+  text-decoration: none;
+  padding: 11px;
+  border-radius: 8px;
+  font-size: medium;
+  font-weight: 600;
+  box-sizing: border-box;
+  
+}
+
+.nav_item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.epic_logo{
+  height: 30px;
+  width: 33px;
+}
+
+.store_main{
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.support_main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.distribute_main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+.globe_logo{
+    height: auto;
+    width: 20px;
+}
+
+.name_letter{
+    height: inherit;
+    width: 28px;
+    background-color:#4a4a4a;
+    border-radius: 24px;
+
+}
+
+.id_link{
+  font-size: medium;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.epic_store_download{
+  background-color: #26bbff;
+  border-radius: 8px;
+  height: 35px;
+  width: 90px;
+  font-weight: 600;
+}
+
+.search{
+  border-radius: 24px;
+  height: 37px;
+  width: 205px;
+  padding-left: 38px;
+  border: 0px;
+  background-color: #2d2d2d;
+  background-image: url(../res/logo/search.png);
+  background-position: left 12px center;
+  background-repeat: no-repeat;
+  caret-color: white;
+  color: white;
+}
+
+.search::placeholder{
+  color: rgb(164, 164, 164);
+  text-align: left;
+  transition: opacity 0.2s ease;
+  
+}
+
+
+.discover{
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.browse, 
+.news, 
+.wishlist, 
+.gift, 
+.cart{
+  color: #aaa;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+

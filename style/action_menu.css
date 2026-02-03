@@ -1,0 +1,27 @@
+.nav_item:hover{
+  color: grey;
+}
+.nav_item:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.distribute_items:hover{
+  background-color: rgba(142, 142, 142, 0.592);
+}
+
+.nav_item:hover .arrow {
+  transform: rotate(-135deg);
+}
+
+.search:focus{
+  background-color: rgb(117, 117, 117);
+  border: none;
+  outline: none;
+}
+
+.search:focus::placeholder{
+  color: white;
+  opacity: 0.4;
+}
+
