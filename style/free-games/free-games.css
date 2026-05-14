@@ -1,0 +1,9 @@
+.free-games{
+    color: white;
+}
+.free-games-heading{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
