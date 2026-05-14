@@ -1,6 +1,12 @@
 .discover-games{
-    padding-left: 190px;
-    padding-right: 190px;
+    color: white;
+}
+
+.discover-games-heading{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #discover-games-heading-txt{

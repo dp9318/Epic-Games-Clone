@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic Games Clone</title>
-    <link rel="stylesheet" href="../style/navbar/top-navbar.css">
-    <link rel="stylesheet" href="../style/navbar/nav-bar-items.css">
-    <link rel="stylesheet" href="../style/navbar/nav-action-menu.css">
     <link rel="stylesheet" href="../style/container.css">
+    <link rel="stylesheet" href="../style/navbar/nav-action-menu.css">
+    <link rel="stylesheet" href="../style/navbar/nav-bar-items.css">
+    <link rel="stylesheet" href="../style/navbar/sticky-navbar.css">
+    <link rel="stylesheet" href="../style/navbar/top-navbar.css">
     <link rel="stylesheet" href="../style/feature-game/feature-game.css">
     <link rel="stylesheet" href="../style/discover/discover.css">
-    <link rel="stylesheet" href="../style/home.css">
     <link rel="icon" type="image/x-icon" href="../assets/logo/epic_logo_white.png">
     
 </head>
@@ -62,91 +62,98 @@
 
     </nav>
 
-    <nav class="store_nav-main">
+    <div class="page-container">
 
-        <div class="second_nav_alignment">
+        <nav class="store_nav-main">
 
-            <div class="store_nav">
-    
-                <div class="store_nav-left">
-                    <input class="search" placeholder="Search Store">
-                </div>
+            <div class="second_nav_alignment">
+
+                <div class="store_nav">
         
-                <div class="store_nav-center">
-                    <a href="../layout/epic_main_page.html" class="discover">Discover</a>
-                    <a href="#" class="browse">Browse</a>
-                    <a href="../layout/news.html" class="news">News</a>
+                    <div class="store_nav-left">
+                        <input class="search" placeholder="Search Store">
+                    </div>
+            
+                    <div class="store_nav-center">
+                        <a href="../layout/epic_main_page.html" class="discover">Discover</a>
+                        <a href="#" class="browse">Browse</a>
+                        <a href="../layout/news.html" class="news">News</a>
+                    </div>
+                    
                 </div>
-                
+                <div class="store_nav-right">
+                    <a href="#" class="wishlist">Wishlist</a>
+                    <a href="#" class="gift">Gifts</a>
+                    <a href="#" class="cart">Cart</a>
+                </div>
+
             </div>
-            <div class="store_nav-right">
-                <a href="#" class="wishlist">Wishlist</a>
-                <a href="#" class="gift">Gifts</a>
-                <a href="#" class="cart">Cart</a>
+
+        </nav>
+
+        <div class="feature-section">
+            <div class="feature-game-left">
+                <div class="feature-game-image">
+                    <img src="../assets/featured/featured-img/forza-horizon-5.jpg" class="feature-game-bg-active">
+                    <img src="../assets/featured/featured-img/detroit-once-became-human.jpg" class="feature-game-bg-not-active">
+                    <img src="../assets/featured/featured-img/R.E.P.O.png" class="feature-game-bg-not-active">
+                    <img src="../assets/featured/featured-img/where-winds-meet.jpg" class="feature-game-bg-not-active">                    
+                </div>
+
+                <div class="feature-game-gfx"></div>
+                <div class="fearure-game-info">
+                    <div class="feature-game-description">
+                        <p></p>
+                    </div>
+                    <span class="feature-game-discount"></span>
+                    <span class="feature-game-price"></span>
+                    <button class="feature-game-buy-button">Buy Now</button>
+                    <button class="feature-game-wishlist-button">Wishlist</button>
+                </div>
+
+            </div>
+
+            <div class="feature-game-right">
+
+                <div class="feature-game-list-item">Game 1</div>
+                <div class="feature-game-list-item">Game 2</div>
+                <div class="feature-game-list-item">Game 3</div>
+                <div class="feature-game-list-item">Game 4</div>
+                <div class="feature-game-list-item">Game 5</div>
+                <div class="feature-game-list-item">Game 6</div>
+
             </div>
 
         </div>
 
-    </nav>
-
-    <div class="feature-section">
-        <div class="feature-game-left">
-
-            <div class="feature-game-bg">
-                <img src="../assets/featured/featured-img/forza-horizon-5.jpg" class="feature-game-bg-active">
-                <img src="../assets/featured/featured-img/where-winds-meet.jpg" class="feature-game-bg-nactive">
-                <img src="../assets/featured/featured-img/R.E.P.O.png" class="feature-game-bg-nactive">
-                <img src="../assets/featured/featured-img/detroit-once-became-human.jpg" class="feature-game-bg-nactive">
-            </div>
-            <div class="feature-game-gfx"></div>
-            <div class="fearure-game-info">
-                <div class="feature-game-description">
-                    <p></p>
+        <div class="discover-games">
+            <div class="discover-games-heading">
+                <div>
+                    <p id="discover-games-heading-txt">Discover Something New</p>
+                    <div id="discover-game-new-page-btn"></div>
                 </div>
-                <span class="feature-game-discount"></span>
-                <span class="feature-game-price"></span>
-                <button class="feature-game-buy-button">Buy Now</button>
-                <button class="feature-game-wishlist-button">Wishlist</button>
+                <div>
+                    <button id="discover-games-prev"></button>
+                    <button id="discover-games-for"></button>
+                </div>
+            </div>
+
+            <div class="discover-cards">
+                <div class="discover-cards">card1</div>
+                <div class="discover-cards">card2</div>
+                <div class="discover-cards">card3</div>
+                <div class="discover-cards">card4</div>
+                <div class="discover-cards">card5</div>
             </div>
 
         </div>
 
-        <div class="feature-game-right">
-
-            <div class="feature-game-list-item">Game 1</div>
-            <div class="feature-game-list-item">Game 2</div>
-            <div class="feature-game-list-item">Game 3</div>
-            <div class="feature-game-list-item">Game 4</div>
-            <div class="feature-game-list-item">Game 5</div>
-            <div class="feature-game-list-item">Game 6</div>
+        <div>
+            <p>Discover Something New</p>
 
         </div>
 
     </div>
-
-    <div class="discover-games">
-        <div class="discover-games-heading">
-            <div>
-                <p id="discover-games-heading-txt">Discover Something New</p>
-                <div id="discover-game-new-page-btn"></div>
-            </div>
-            <div>
-                <button id="discover-games-prev"></button>
-                <button id="discover-games-for"></button>
-            </div>
-        </div>
-
-        <div class="discover-cards">
-            <div class="discover-cards">card1</div>
-            <div class="discover-cards">card2</div>
-            <div class="discover-cards">card3</div>
-            <div class="discover-cards">card4</div>
-            <div class="discover-cards">card5</div>
-        </div>
-
-    </div>
-
-
 </body>
 </html>
 

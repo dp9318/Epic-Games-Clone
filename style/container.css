@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+}
+
 .top_navbar_alignment{
     display: flex;
     align-items: center;
@@ -11,9 +16,18 @@
 
 .store_nav-main{
     position: sticky;
-    z-index: 7;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(15, 15, 15);
 }
 
+.page-container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 10%;
+}
 
 
 
