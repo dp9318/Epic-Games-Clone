@@ -1,26 +1,25 @@
-.discover-cards{
-    color: white;
-}
-
-.discover-games-heading{
+.discover-games-heading {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: space-between;
 }
 
-#discover-games-heading-txt{
+#discover-games-heading-txt {
     color: white;
     font-size: 24px;
 }
 
-.discover-cards-container{
+.discover-cards-container {
     display: flex;
     overflow-x: auto;
-    white-space: nowrap;
     width: 100%;
-    
-    .discover-cards{
-        display: inline-block;
-    }
+    gap: 25px;
+}
+
+.discover-cards {
+    flex: 0 0 200px;
+    color: white;
+    height: 250px;
+    background-color: grey;
 }

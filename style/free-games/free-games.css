@@ -1,9 +1,25 @@
-.free-games{
-    color: white;
-}
 .free-games-heading{
     display: flex;
     position: relative;
     align-items: center;
     justify-content: space-between;
+}
+
+#free-games-heading-txt, #free-game-new-page-btn{
+    color: white;
+    font-size: 24px;
+}
+
+.free-cards-container{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    gap: 25px;
+}
+
+.free-games-cards{
+    flex: 0 0 200px;
+    color: white;
+    height: 250px;
+    background-color: grey;
 }
